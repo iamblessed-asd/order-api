@@ -45,7 +45,7 @@ docker-compose up --build
   `id`, `client_id`, `order_date`, `total_price`  
 
 - **Category** — категории товаров  
-  `id`, `name` (уникальное), `parent_id`  
+  `id`, `name` (уникальное), `parent_id` (нужен для неограниченной вложенности)  
 
 - **Nomenclature** — товары  
   `id`, `name`, `quantity`, `price`, `category_id`  
