@@ -20,7 +20,7 @@ docker-compose up --build
 
 ### 3. Можно проверить доступность, например, обратившись к документации от FastAPI:
 ```
-[http://localhost:8000/docs](http://localhost:8000/docs)
+http://localhost:8000/docs
 ```
 ---
 
